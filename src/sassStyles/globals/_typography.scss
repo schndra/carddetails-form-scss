@@ -1,0 +1,12 @@
+@use "../utils" as u;
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  margin-bottom: 1.38rem;
+  font-family: u.$font;
+  font-weight: 500;
+}
