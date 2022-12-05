@@ -5,8 +5,10 @@ main {
   grid-template-columns: 1fr;
   .card-container {
     width: 100%;
+    height: 15rem;
     .mobile-bg {
       width: 100%;
+      height: 100%;
       display: block;
       object-fit: cover;
     }
