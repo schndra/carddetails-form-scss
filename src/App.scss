@@ -1,0 +1,36 @@
+main {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  .card-container {
+    width: 100%;
+    .mobile-bg {
+      width: 100%;
+      display: block;
+      object-fit: cover;
+    }
+    .desktop-bg {
+      width: 100%;
+      display: block;
+      object-fit: cover;
+      display: none;
+    }
+    .card-back {
+      img {
+        width: 17.875rem;
+        position: absolute;
+        top: 2rem;
+        right: 1rem;
+      }
+    }
+    .card-front {
+      img {
+        width: 17.875rem;
+        position: absolute;
+        top: 7.5rem;
+        left: 1rem;
+      }
+    }
+  }
+}
