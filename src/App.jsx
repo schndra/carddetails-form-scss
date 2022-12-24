@@ -22,7 +22,23 @@ function App() {
         </div>
       </div>
       <section>
-        <div className="container"></div>
+        <div className="container">
+          <form action="">
+            <div className="label-div">
+              <label htmlFor="">cardholder name</label>
+              <input type="text" placeholder="e.g. Jane Appleseed" />
+            </div>
+            <div className="label-div">
+              <label htmlFor="">cardholder number</label>
+              <input type="text" placeholder="e.g. 1234 5678 9123 0000" />
+            </div>
+            <div className="label-div">
+              <label htmlFor="">Exp.date(mm/yy) cvc</label>
+              <input type="text" placeholder="e.g. 1234 5678 9123 0000" />
+            </div>
+            <button type="submit">confirm</button>
+          </form>
+        </div>
       </section>
     </main>
   );
